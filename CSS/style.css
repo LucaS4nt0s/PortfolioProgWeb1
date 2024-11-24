@@ -1,0 +1,108 @@
+:root{
+
+    --color-dark: #000000;
+    --color-gray: rgb(80, 80, 80);
+    --color-nav: #d8d8d8;
+    --color-icons: #2dd4bf;
+    --color-white: #fff;
+}
+
+body{
+    background-color: var(--color-gray);
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: var(--color-white)
+}
+
+.nav-bar{
+    background-color: var(--color-nav);
+    position: fixed;
+    height: 100dvh;  
+    padding-top: 2.5dvh;
+}
+
+.lista_nav{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.lista_nav a{
+    text-decoration: none;
+    color: var(--color-dark);
+    font-size: 15px;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+    padding: 2dvh;
+    padding-top: 3.8dvh;
+    padding-bottom: 3.8dvh;
+}
+
+.lista_nav a:hover{
+    background-color: var(--color-gray);
+    color: var(--color-icons);
+    transition: 0.2s;
+}
+
+.logo{
+    margin-top: 2dvh;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    aspect-ratio: 4/3;
+}
+
+.logo:hover{
+    transition: 0.2s;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+}
+
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 18dvw;
+    height: 100dvh;
+} 
+
+.container h1{
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    font-size: 5dvh;
+    overflow-x: auto; 
+}
+
+.contatos{
+    font-size: 25px;
+    text-align: center;
+}
+
+.texto-if{
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.texto-atvext{
+    font-size: 20px;
+}
+.texto-atvext a{
+    text-decoration: none;
+    color: var(--color-icons);
+}
+
+.texto-atvext a:hover{
+    text-decoration: underline;
+    color: var(--color-dark);
+}
+
+.lista-atvcult{
+    list-style-type: none;
+}

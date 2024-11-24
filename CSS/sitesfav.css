@@ -1,0 +1,29 @@
+.lista-nao-ordenada a{
+    text-decoration: none;
+    color: var(--color-icons);
+}
+
+.lista-nao-ordenada a:hover{
+    text-decoration: underline;
+    color: var(--color-dark);
+}
+
+.lista-nao-ordenada {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.linhas {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.icones {
+    width: 60px; 
+    height: 60px; 
+    margin-right: 10px;
+}
+

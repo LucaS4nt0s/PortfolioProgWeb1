@@ -1,0 +1,22 @@
+.lista-ordenada a{
+    text-decoration: none;
+    color: var(--color-icons);
+}
+
+.lista-ordenada a:hover{
+    text-decoration: underline;
+    color: var(--color-dark);
+}
+.lista-ordenada{
+    font-size: 20px;
+    margin: 0px;
+    padding: 4rem;
+    margin-top: 10rem;
+}
+
+.container h1{
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    font-size: 5dvh;
+}
